@@ -1,1 +1,11 @@
 * Map Format Specification
+** Objects
+The map format needs to support to add objects. 
+
+Proposed tag 
+<object mesh="foo.obj" texture="foo.png">
+  <position x="5.25" y="-3" z="5"/>
+  <rotation x="0" y="0" z="0"/>
+  <scale x="0.5" y="4.0" z="4.0"/>
+<\object>
+In the editor show the mesh as it would look in the game.
