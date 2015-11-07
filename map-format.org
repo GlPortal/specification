@@ -14,10 +14,12 @@ function jump(){
 #+end_src
 
 ** Materials
+#+begin_src xml
   <materials>
     <mat mid="1" name="concrete/wall00"/>
     <mat mid="2" name="metal/tiles00x3"/>
   </materials>
+  #+end_src
 
 ** Objects
 The map format needs to support to add objects. 
