@@ -1,0 +1,2 @@
+* Level Design
+- Always have the player be aware of the goal. At best have him see the goal at all times.
