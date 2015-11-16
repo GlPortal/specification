@@ -1,5 +1,16 @@
 * Map Format Specification
-** Scripts
+** Triggers
+*** Buttons
+#+begin_src xml
+Toggle means that triggering a second time will reverse the action.
+When action is set to required the action key has to be pressed in order for the trigger to fire.
+<removeTrigger toggle="true" action="required" ref="wall-name">
+  <position x="5.25" y="-3" z="5"/>
+  <rotation x="0" y="0" z="0"/>
+  <scale x="0.5" y="4.0" z="4.0"/>
+</removeTrigger>
+#+end_src
+*** Scripts
 #+begin_src xml
 <script>
 function jump(){
