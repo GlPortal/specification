@@ -1,2 +1,2 @@
 * Level Design
-- Always have the player be aware of the goal. At best have him see the goal at all times.
+- Give the player a glimpse at the goal as early as possible. Keep the player aware of the position of the goal at all times.
