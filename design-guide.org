@@ -9,4 +9,4 @@ Our aim with the GlPortal engine is to produce an enjoyable game and not to go o
 graphics that will be outdated the second they are released. 
 
 ** Functionality over Form
-Don't try to polish the visuals of a feature to perfection before adding them. Most functions will still be fun even if you use simple placeholder models. The look will be improved upon in iterations.
+Don't try to polish the visuals of a feature to perfection before adding it. Most functions will still be fun even if you use simple placeholder models. The look will be improved upon in iterations.
