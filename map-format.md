@@ -37,7 +37,7 @@ When action is set to required the action key has to be pressed in order for the
 ```
 
 ## Objects
-The map format needs to support to add objects. 
+The map format needs to support to add objects.
 
 Proposed tag
 
@@ -50,3 +50,14 @@ Proposed tag
 ```
 
 In the editor show the mesh as it would look in the game.
+
+
+## Walls
+
+```xml
+<wall mid="<material_id>">
+  <position x="5.25" y="-3" z="5"/>
+  <rotation x="0" y="0" z="0"/>
+  <scale x="0.5" y="4.0" z="4.0"/>
+</wall>
+```
