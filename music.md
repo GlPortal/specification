@@ -1,6 +1,6 @@
 # Workflow for creating the Score
 ## Score Specification
-Write down the outline of the score. 
+Write down the outline of the score.
 ## Track Specification
 Split the outline into several tracks and write detailed information about each track.
 ## Musical Notes (optional but recommended)
@@ -39,7 +39,7 @@ It is possible that we need track data in MIDI format. Don't bother with advance
 
 ### License
 
-You are free to chose the license for the files you created, as long as you allow the music to be redistributed along glPortal. This is the minimum requirement.
+You are free to chose the license for the files you created, as long as you allow the music to be redistributed along with GlPortal. This is the minimum requirement.
 Also bear in mind people may want to use your works for other projects or want to remix it. Ideally choose a [Creative Commons license](http://creativecommons.org/choose/) like CC BY-SA (Attribution, Share Alike) which is a [Free Culture](http://creativecommons.org/freeworks) one, to allow this.
 
 # TODO

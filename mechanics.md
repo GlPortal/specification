@@ -1,7 +1,7 @@
 # Mechanics
 ## Teleportation
-## Remote Controll Robots
-You controll the robot first person. It can fit through places the player can't and it can be used to step on to reach high places.
+## Remote Control Robots
+You control the robot first person. It can fit through places the player can't and it can be used to step on to reach high places.
 ## Circuits
 ## Double Jump
 ## Wall Running
@@ -19,7 +19,7 @@ Testing elements
 -   Lasers
     -   Red laser is for the weak, has long wavelength (= low energy).
         Give us blue/purple lasers!
-    -   Can have speed of light OR be slown down by emitter (see
+    -   Can have speed of light OR be slowed down by emitter (see
         upcoming 3D model)
     -   Purple lasers are lethal and can be used to (willingly) damage
         things, whereas blue ones are not (both can be, of course, used
@@ -45,7 +45,7 @@ Other design-related things
     -   Show logical operations using their respective MIL/ANSI symbol,
         plus its short name (AND, OR, NAND, NOR, XOR, XNOR, NOT) inside
         the symbol (because not everyone knows the symbol)
-    -   Has a to-be-chosen color when disabled, anoter one when enabled
+    -   Has a to-be-chosen color when disabled, another one when enabled
     -   Can have delay and timer gates
         -   Must choose symbols
         -   Delay/timer written in symbol (e.g. 2s)
@@ -129,10 +129,10 @@ Some of them are named after scientists/artists
         -   Blue 001
         -   Purple 101
         -   White 111
--   Colored Laser reditection boxes
+-   Colored Laser redirection boxes
     -   Acts as light filter; e.g. red laser doesn’t pass through green
         box which only lets green pass
--   Laser reditection boxes, colored or not:
+-   Laser redirection boxes, colored or not:
     -   When combining multiple laser colors, they RGB-ically
         combine (e.g. Red+Cyan=White)
     -   Already-imposed restrictions still applies for colored
@@ -165,7 +165,7 @@ Some of them are named after scientists/artists
 ### Tag series
 
 -   Paint fluids
-    -   If Elemental series’ water pouring mecanics gets implemented,
+    -   If Elemental series’ water pouring mechanics gets implemented,
         can be used with paint as liquid, for storage only parts
         -   Could spice up gameplay by limiting amount of paint; but
             resetting involves tricky things, pick one:
@@ -203,7 +203,7 @@ Other random ideas
     -   Tetrahedron buttons
 -   Jello boxes / spheres / tetrahedrons
     -   Constructed in-place by pouring liquid jello in a
-        transparent (e.g. plastic or glass) mold and then quicky being
+        transparent (e.g. plastic or glass) mold and then quickly being
         cooled
     -   Bouncy!
     -   Available in different colors, for the cheap price of \$0.00 !
