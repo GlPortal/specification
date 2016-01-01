@@ -4,3 +4,4 @@ Teaching about:
 - Physics
 - Biology
 - Languages
+- Computer Science
