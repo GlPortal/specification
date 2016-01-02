@@ -11,6 +11,3 @@ graphics that will be outdated the second they are released.
 ## Functionality over Polising
 Don't try to polish the visuals of a feature to perfection before adding it. Most functions will still be fun even if you 
 use simple placeholder models. The look will be improved upon in iterations.
-
-## Simplicity instead of Detailing
-When for any character a voiceover is enough then go with it. There are plenty of explainations why only the voice of somebody will be heard.
