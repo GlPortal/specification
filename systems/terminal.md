@@ -6,5 +6,6 @@ How does the terminal fit into an ECS?
 - **Line Buffer** Holds the previous lines 
 - **Char Buffer** Holds the current input
 - **Buffer Position** The current position in the char buffer
+
 ## Commands
 - exit
