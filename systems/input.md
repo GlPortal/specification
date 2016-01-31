@@ -5,3 +5,7 @@ solution of a single system that either dispatches events or works with adapters
 ## Supported Hardware
 - Mouse, Keyboard
 - Gamepad
+
+## Keys
+- F2 Terminal
+- F5 Reload map
