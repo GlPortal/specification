@@ -5,3 +5,4 @@ Teaching about:
 - Biology
 - Languages
 - Computer Science
+- Programming
