@@ -1,5 +1,22 @@
 # Map Format Specification {#map-format-spec}
 ## Triggers
+
+trigger_type:
+ - death
+   - Player will die
+ - win
+   - Player will win current map and new map will be loaded
+ - radiation
+   - It will hurt player
+
+```xml
+<trigger type="<trigger_type>">
+  <position x="5.25" y="-3" z="5"/>
+  <rotation x="0" y="0" z="0"/>
+  <scale x="0.5" y="4.0" z="4.0"/>
+</trigger>
+```
+
 ### Track
 Play a music track.
 ```xml
