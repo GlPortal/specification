@@ -1,14 +1,5 @@
 # Map Format Specification {#map-format-spec}
 ## Triggers
-
-trigger_type:
- - death
-   - Player will die
- - win
-   - Player will win current map and new map will be loaded
- - radiation
-   - It will hurt player
-
 ```xml
 <trigger type="<trigger_type>">
   <position x="5.25" y="-3" z="5"/>
@@ -16,16 +7,25 @@ trigger_type:
   <scale x="0.5" y="4.0" z="4.0"/>
 </trigger>
 ```
+### Death
+Player will die
 
-### Track
-Play a music track.
+### Win
+Player will win current map and new map will be loaded
+
+### Radiation
+Decrease player health over time.
+
+### Music
+Play a music track.  
 ```xml
-<trackTrigger loop="true" track="track1">
+<trigger type="music" loop="true" track="track1">
   <position x="5.25" y="-3" z="5"/>
   <rotation x="0" y="0" z="0"/>
   <scale x="0.5" y="4.0" z="4.0"/>
-</trackTrigger>
+</trigger>
 ```
+
 ### Checkpoint
 Respawns the player at position specified by spawn on death.
 
