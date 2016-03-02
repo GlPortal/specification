@@ -1,4 +1,39 @@
 # Map Format Specification {#map-format-spec}
+## Materials
+
+```xml
+<materials>
+  <mat mid="1" name="concrete/wall00"/>
+  <mat mid="2" name="metal/tiles00x3"/>
+</materials>
+```
+
+## Models
+The map format needs to support to add models.
+
+Proposed tag
+
+```xml
+<model mesh="foo.obj" mid="<material_id>">
+  <position x="5.25" y="-3" z="5"/>
+  <rotation x="0" y="0" z="0"/>
+  <scale x="0.5" y="4.0" z="4.0"/>
+</model>
+```
+
+In the editor show the mesh as it would look in the game.
+
+
+## Walls
+
+```xml
+<wall mid="<material_id>">
+  <position x="5.25" y="-3" z="5"/>
+  <rotation x="0" y="0" z="0"/>
+  <scale x="0.5" y="4.0" z="4.0"/>
+</wall>
+```
+
 ## Triggers
 ```xml
 <trigger type="<trigger_type>">
@@ -63,39 +98,4 @@ When action is set to required the action key has to be pressed in order for the
   <rotation x="0" y="0" z="0"/>
   <scale x="0.5" y="4.0" z="4.0"/>
 </scriptTrigger>
-```
-
-## Materials
-
-```xml
-<materials>
-  <mat mid="1" name="concrete/wall00"/>
-  <mat mid="2" name="metal/tiles00x3"/>
-</materials>
-```
-
-## Models
-The map format needs to support to add models.
-
-Proposed tag
-
-```xml
-<model mesh="foo.obj" mid="<material_id>">
-  <position x="5.25" y="-3" z="5"/>
-  <rotation x="0" y="0" z="0"/>
-  <scale x="0.5" y="4.0" z="4.0"/>
-</model>
-```
-
-In the editor show the mesh as it would look in the game.
-
-
-## Walls
-
-```xml
-<wall mid="<material_id>">
-  <position x="5.25" y="-3" z="5"/>
-  <rotation x="0" y="0" z="0"/>
-  <scale x="0.5" y="4.0" z="4.0"/>
-</wall>
 ```
