@@ -5,6 +5,7 @@ solution of a single system that either dispatches events or works with adapters
 ## Supported Hardware
 - Mouse, Keyboard
 - Gamepad
+  - xbox 360 
 
 ## Keys
 - F2 Terminal
