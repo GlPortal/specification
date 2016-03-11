@@ -1,4 +1,13 @@
 # Map Format Specification {#map-format-spec}
+## Authors
+
+```xml
+<authors>
+  <author email="john.k@example.com">John Kent</author>
+  <author>Bruce Obama</author>
+</authors>
+```
+
 ## Materials
 
 ```xml
