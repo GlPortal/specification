@@ -1,4 +1,13 @@
 # Map Format Specification {#map-format-spec}
+## File
+A map starts with the xml declaration and the map tag. 
+```xml
+<?xml version="1.0" ?>
+<map>
+[...]
+</map>
+```
+
 ## Authors
 
 ```xml
@@ -6,6 +15,36 @@
   <author email="john.k@example.com">John Kent</author>
   <author>Bruce Obama</author>
 </authors>
+```
+
+## Position
+Denotes a position in 3D. 
+Attributes float x, float y, float z.
+```xml
+<position x="2.5" y="1" z="5"/>
+```
+
+## Rotation
+Attributes degree int x, int y, int z.
+```xml
+<rotation x="0" y="-90" z="0"/>
+```
+
+## Spawn Position
+```xml
+<spawn>
+    <position x="2.5" y="1" z="5"/>
+    <rotation x="0" y="-90" z="0"/>
+</spawn>
+```
+
+## End Position
+End position is deprecated and will be replaced by the end_map trigger in the future.
+```xml
+<end>
+    <position x="25" y="0" z="5"/>
+    <rotation x="0" y="90" z="0"/>
+</end>
 ```
 
 ## Materials
