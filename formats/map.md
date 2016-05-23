@@ -82,6 +82,22 @@ In the editor show the mesh as it would look in the game.
 </wall>
 ```
 
+## Light
+Define a point light.
+### Required attributes:
+ - Position - float x, float y, float z
+ - Color - float r, float g, float b
+ - Distance - float distance
+ - Energy - float energy
+
+### Optional attributes:
+ - specular - int specular
+```xml
+<light x="10" y="6" z="5" r="0.9" g="0.9" b="1" distance="20" energy="5" specular="1"/>
+<light x="10" y="6" z="5" r="0.9" g="0.9" b="1" distance="20" energy="5" specular="0"/>
+<light x="10" y="6" z="5" r="0.9" g="0.9" b="1" distance="20" energy="5"/>
+```
+
 ## Triggers
 ```xml
 <trigger type="<trigger_type>">
