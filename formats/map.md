@@ -51,8 +51,8 @@ End position is deprecated and will be replaced by the end_map trigger in the fu
 
 ```xml
 <materials>
-  <mat mid="1" name="concrete/wall00"/>
-  <mat mid="2" name="metal/tiles00x3"/>
+  <material id="1" name="concrete/wall00"/>
+  <material id="2" name="metal/tiles00x3"/>
 </materials>
 ```
 
@@ -75,7 +75,7 @@ In the editor show the mesh as it would look in the game.
 ## Walls
 
 ```xml
-<wall mid="<material_id>">
+<wall material="<material_id>">
   <position x="5.25" y="-3" z="5"/>
   <rotation x="0" y="0" z="0"/>
   <scale x="0.5" y="4.0" z="4.0"/>
