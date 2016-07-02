@@ -1,4 +1,6 @@
 # Map Format Specification {#map-format-spec}
+Proposal for Version 2 of the map format.
+
 ## File
 A map starts with the xml declaration and the map tag. 
 ```xml
