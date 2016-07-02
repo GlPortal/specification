@@ -62,7 +62,7 @@ The map format needs to support to add models.
 Proposed tag
 
 ```xml
-<model mesh="foo.obj" mid="<material_id>">
+<model mesh="foo.obj" material="<material_id>">
   <position x="5.25" y="-3" z="5"/>
   <rotation x="0" y="0" z="0"/>
   <scale x="0.5" y="4.0" z="4.0"/>
