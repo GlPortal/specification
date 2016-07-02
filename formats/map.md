@@ -93,7 +93,8 @@ Define a point light.
 ### Optional attributes:
  - specular - int specular
 ```xml
-<light x="10" y="6" z="5" r="0.9" g="0.9" b="1" distance="20" energy="5" specular="1"/>
-<light x="10" y="6" z="5" r="0.9" g="0.9" b="1" distance="20" energy="5" specular="0"/>
-<light x="10" y="6" z="5" r="0.9" g="0.9" b="1" distance="20" energy="5"/>
+<light distance="20" energy="5" specular="0"/>
+  <position x="5.25" y="-3" z="5"/>
+  <color r="0.9" g="0.9" b="0.9"/>
+</light>
 ```
