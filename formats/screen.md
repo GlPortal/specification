@@ -21,3 +21,13 @@ Used for applying style sheets.
   </page>
 </screen>
 ```
+
+```xml
+
+<screen name="menu">
+  <container>
+    <button trigger="start-game">Start</button>
+    <button trigger="end-game">End</button>
+  </container>
+</screen>
+```
