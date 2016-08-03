@@ -26,8 +26,10 @@ Used for applying style sheets.
 
 <screen name="menu">
   <container>
-    <button trigger="start-game">Start</button>
-    <button trigger="end-game">End</button>
+    <list>
+      <item><button trigger="start-game">Start</button></item>
+      <item><button trigger="end-game">End</button></item>
+    </list>
   </container>
 </screen>
 ```
