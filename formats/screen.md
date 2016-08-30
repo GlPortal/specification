@@ -1,9 +1,46 @@
 # Screen format
-## Title
-The title of a screen.
-## Text
-## Class
-Used for applying style sheets.
+## Elements
+Element text has following structure:
+```xml
+<text size=integer top=integer(optional) align=string(optional)
+ z=integer(optional)> string </text>
+```
+Element image has following structure:
+```xml
+<image right=string bottom=string> string </image>
+```
+Element button has following structure:
+```xml
+<button trigger=string> string </button>
+```
+Element item has following structure:
+```xml
+<item> element button </item>
+```
+Element list has following structure:
+```xml
+<list> element item </list>
+```
+## More complex elements
+Element page has following structure:
+```xml
+<page timeout=integer(optional) key=string(optional)>
+  may contain following elements: container, text, image
+</page>
+```
+Element container has following structure:
+```xml
+<container width=string(optional) height=string(optional) top=string(optional) left=string(optional)>
+  may contain following elements: page, text, image, list
+</page>
+```
+##Screen element
+Element screen has following structure:
+```xml
+<screen name=string(optional)>
+  may contain following elements: text, image, container, page
+</screen>
+## Examples
 ```xml
 
 <screen>
