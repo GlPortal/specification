@@ -20,13 +20,9 @@ Element material may contain following subelements:
 <kind> string </kind>
 <tags> string </tags>
 ```
-It also must contain attribute
+It also contains following attributes:
 ```xml
-<material name=string (..)
-```
-and may contain attribute:
-```xml
-<material fancyname=string (..)
+<material name=string(required) fancyname=string(optional)>
 ```
 ## Example
 ```xml
