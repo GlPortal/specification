@@ -2,8 +2,7 @@
 ## Elements
 Element text has following structure:
 ```xml
-<text size=integer top=integer(optional) align=string(optional)
- z=integer(optional)> string </text>
+<text size=integer top=integer(optional) align=string(optional) z=integer(optional)> string </text>
 ```
 Element image has following structure:
 ```xml
