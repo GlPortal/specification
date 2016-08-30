@@ -40,6 +40,7 @@ Element screen has following structure:
 <screen name=string(optional)>
   may contain following elements: text, image, container, page
 </screen>
+```
 ## Examples
 ```xml
 
