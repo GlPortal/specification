@@ -31,7 +31,7 @@ Element container has following structure:
 ```xml
 <container width=string(optional) height=string(optional) top=string(optional) left=string(optional)>
   may contain following elements: page, text, image, list
-</page>
+</container>
 ```
 ##Screen element
 Element screen has following structure:
