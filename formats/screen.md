@@ -80,3 +80,13 @@ Element screen has following structure:
   </container>
 </screen>
 ```
+
+```xml
+
+<screen>
+  <trigger key="esc" target="gamestate:running"/>
+  <container>
+    Game paused hit escape again to go back to the game.
+  </container>
+</screen>
+```
