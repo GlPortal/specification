@@ -70,3 +70,13 @@ Element screen has following structure:
   </container>
 </screen>
 ```
+
+```xml
+
+<screen>
+  <trigger key="esc" target="pause"/>
+  <container>
+    Press escape to pause
+  </container>
+</screen>
+```
