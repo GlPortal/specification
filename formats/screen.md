@@ -1,4 +1,14 @@
 # Screen format
+
+## File
+A screen starts with the xml declaration and the screen tag. 
+```xml
+<?xml version="1.0" ?>
+<screen>
+[...]
+</screen>
+```
+
 ## Elements
 Element text has following structure:
 ```xml
@@ -20,7 +30,7 @@ Element list has following structure:
 ```xml
 <list> element item </list>
 ```
-## More complex elements
+# Container
 Element page has following structure:
 ```xml
 <page timeout=integer(optional) key=string(optional)>
@@ -33,13 +43,7 @@ Element container has following structure:
   may contain following elements: page, text, image, list
 </container>
 ```
-##Screen element
-Element screen has following structure:
-```xml
-<screen name=string(optional)>
-  may contain following elements: text, image, container, page
-</screen>
-```
+
 ## Examples
 ```xml
 
