@@ -28,7 +28,7 @@ A screen starts with the xml declaration and the screen tag.
 ```
 ### List
 ```xml
-<list> string</list>
+<list> string </list>
 ```
 ## Container
 Element page has following structure:
