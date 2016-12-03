@@ -41,7 +41,3 @@ It is possible that we need track data in MIDI format. Don't bother with advance
 
 You are free to chose the license for the files you created, as long as you allow the music to be redistributed along with GlPortal. This is the minimum requirement.
 Also bear in mind people may want to use your works for other projects or want to remix it. Ideally choose a [Creative Commons license](http://creativecommons.org/choose/) like CC BY-SA (Attribution, Share Alike) which is a [Free Culture](http://creativecommons.org/freeworks) one, to allow this.
-
-# TODO
-## Music trackers
-MOD format, etc...
