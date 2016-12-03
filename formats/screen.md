@@ -31,13 +31,13 @@ A screen starts with the xml declaration and the screen tag.
 <list> string </list>
 ```
 ## Container
-Element page has following structure:
+### Page
 ```xml
 <page timeout=integer(optional) key=string(optional)>
   may contain following elements: container, text, image
 </page>
 ```
-Element container has following structure:
+### Container
 ```xml
 <container width=string(optional) height=string(optional) top=string(optional) left=string(optional)>
   may contain following elements: page, text, image, list
