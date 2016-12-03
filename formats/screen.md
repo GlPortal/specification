@@ -10,25 +10,25 @@ A screen starts with the xml declaration and the screen tag.
 ```
 
 ## Elements
-Element text has following structure:
+### Text
 ```xml
 <text size=integer top=integer(optional) align=string(optional) z=integer(optional)> string </text>
 ```
-Element image has following structure:
+### Image
 ```xml
 <image right=string bottom=string> string </image>
 ```
-Element button has following structure:
+### Button
 ```xml
 <button trigger=string> string </button>
 ```
-Element item has following structure:
+### Item
 ```xml
-<item> element button </item>
+<item> string </item>
 ```
-Element list has following structure:
+### List
 ```xml
-<list> element item </list>
+<list> string</list>
 ```
 ## Container
 Element page has following structure:
