@@ -30,6 +30,14 @@ A screen starts with the xml declaration and the screen tag.
 ```xml
 <list> string </list>
 ```
+
+### Trigger
+On keypress switch to another screen or gamestate.
+
+```xml
+<trigger key="esc" target="gamestate:running"/>
+```
+
 ## Container
 ### Page
 ```xml
