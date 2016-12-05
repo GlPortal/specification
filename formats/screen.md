@@ -32,7 +32,8 @@ A screen starts with the xml declaration and the screen tag.
 ```
 
 ### Trigger
-On keypress switch to another screen or gamestate.
+On keypress switch to another screen or game state.
+Target is the target screens name and with the gamestate: prefix a game state.
 
 ```xml
 <trigger key="esc" target="gamestate:running"/>
