@@ -53,6 +53,13 @@ Target is the target screens name and with the gamestate: prefix a game state.
 </container>
 ```
 
+### Canvas
+Area to render graphics on
+
+```xml
+<canvas></canvas>
+```
+
 ## Examples
 ```xml
 
