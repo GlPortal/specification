@@ -88,7 +88,7 @@ Toggle means that triggering a second time will reverse the action.
 When action is set to true the action key has to be pressed in order for the trigger to fire.
 
 ```xml
-<trigger type="remove" toggle="true" action="true ref="wall-name">
+<trigger type="remove" toggle="true" action="true" ref="wall-name">
   <position x="5.25" y="-3" z="5"/>
   <rotation x="0" y="0" z="0"/>
   <scale x="0.5" y="4.0" z="4.0"/>
