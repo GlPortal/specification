@@ -35,7 +35,7 @@ Player will win current map and new (next) map will be loaded.
 Decrease player health over time.
 
 ```xml
-<trigger type="radiation">
+<trigger type="radiation" intensity="1">
   <position x="5.25" y="-3" z="5"/>
   <rotation x="0" y="0" z="0"/>
   <scale x="0.5" y="4.0" z="4.0"/>
