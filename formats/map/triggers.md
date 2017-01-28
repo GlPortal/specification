@@ -21,6 +21,9 @@ Player will die.
 ```
 
 ## Win
+
+    Deprecated in triggers 2.0 in favor of the screen trigger
+
 Player will win current map and new (next) map will be loaded.
 
 ```xml
