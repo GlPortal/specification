@@ -45,12 +45,12 @@ Decrease player health over time.
 </trigger>
 ```
 
-## Music
-Play a music track, loop attribute of triger element is optional, by default it is false
+## Audio
+Play a audio track, loop attribute of triger element is optional, by default it is false
 * loop attribute (boolean) of element trigger is optional, by default it is false
 * file attribute is the file path relative to the packages data path where /audio is implied
 ```xml
-<trigger type="music" loop="true" file="track1">
+<trigger type="audio" loop="true" file="track1">
   <position x="5.25" y="-3" z="5"/>
   <rotation x="0" y="0" z="0"/>
   <scale x="0.5" y="4.0" z="4.0"/>
