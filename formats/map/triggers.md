@@ -98,12 +98,20 @@ When action is set to true the action key has to be pressed in order for the tri
 ## Teleport
 * This trigger is still a draft
 ```xml
-<trigger type="teleport" name="teleport1" destination="teleport2">
+<trigger type="teleport" destination="destination1">
   <position x="5.25" y="-3" z="5"/>
   <scale x="0.5" y="4.0" z="4.0"/>
 </trigger>
 ```
 
+```xml
+<teleport-destination name="destination1">
+  <position x="5.25" y="-3" z="5"/>
+  <rotation x="0" y="0" z="0"/>
+  <scale x="0.5" y="4.0" z="4.0"/>
+</teleport-destination>
+```
+   
 ## Scripts
 * This trigger is still a draft
 ```xml
