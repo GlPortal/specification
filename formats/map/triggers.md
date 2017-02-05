@@ -97,7 +97,7 @@ When action is set to true the action key has to be pressed in order for the tri
 
 ## Teleport
 * This trigger is still a draft
-```
+```xml
 <trigger type="teleport" name="teleport1" destination="teleport2">
   <position x="5.25" y="-3" z="5"/>
   <scale x="0.5" y="4.0" z="4.0"/>
@@ -106,7 +106,7 @@ When action is set to true the action key has to be pressed in order for the tri
 
 ## Scripts
 * This trigger is still a draft
-```
+```xml
 <script>
   function jump(){
     smooth(player.position.y, 3);
