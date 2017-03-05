@@ -48,7 +48,7 @@ Decrease player health over time.
 ## Audio
 Play a audio track, loop attribute of triger element is optional, by default it is false
 * loop attribute (boolean) of element trigger is optional, by default it is false
-* file attribute is the file path relative to the packages data path where /audio is implied
+* file (mandatory) attribute is the file path relative to the packages data path where /audio is implied
 ```xml
 <trigger type="audio" loop="true" file="track1">
   <position x="5.25" y="-3" z="5"/>
@@ -67,19 +67,24 @@ Load new map
   <scale x="0.5" y="4.0" z="4.0"/>
 </trigger>
 ```
-
-## Checkpoint
-Respawns the player at position specified by spawn on death. Rotation subelement of trigger (optional) determines rotation of trigger box, rotation subelement of element <a href="https://github.com/senbar/specification/blob/RadixEngine/formats/map.md#spawn-position">spawn</a> determines rotation of spawn (optional)
-
+## Destination
+Is used to reference position for checkpoints and player teleportation
 ```xml
-<trigger type="checkpoint">
+<destination name="destination1">
   <position x="5.25" y="-3" z="5"/>
   <rotation x="0" y="0" z="0"/>
   <scale x="0.5" y="4.0" z="4.0"/>
-  <spawn>
-    <position x="2.5" y="1" z="5"/>
-    <rotation x="0" y="-90" z="0"/>
-  </spawn>
+</destination>
+```
+
+## Checkpoint
+* destination (mandatory) destination where the player will spawn when reset to checkpoint
+Respawns the player at position specified by destination on death. Rotation subelement of trigger (optional) determines rotation of trigger box, rotation subelement
+```xml
+<trigger type="checkpoint" destination="destination name">
+  <position x="5.25" y="-3" z="5"/>
+  <rotation x="0" y="0" z="0"/>
+  <scale x="0.5" y="4.0" z="4.0"/>
 </trigger>
 ```
 
@@ -96,20 +101,12 @@ When action is set to true the action key has to be pressed in order for the tri
 ```
 
 ## Teleport
-* This trigger is still a draft
+* destination (mandatory) the destination that the teleport is linked to
 ```xml
 <trigger type="teleport" destination="destination1">
   <position x="5.25" y="-3" z="5"/>
   <scale x="0.5" y="4.0" z="4.0"/>
 </trigger>
-```
-
-```xml
-<teleport-destination name="destination1">
-  <position x="5.25" y="-3" z="5"/>
-  <rotation x="0" y="0" z="0"/>
-  <scale x="0.5" y="4.0" z="4.0"/>
-</teleport-destination>
 ```
    
 ## Scripts
