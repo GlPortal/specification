@@ -1,7 +1,7 @@
 Testing elements
 ----------------
 
--   Portals (eh!)
+-   Portals
     -   See how it keeps forward momentum, *or*, *to be more precise*,
         *how it does not*.
 -   Boxes
