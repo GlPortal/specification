@@ -1,4 +1,4 @@
-# Map Format Specification {#map-format-spec}
+# Map Format Specification
 Proposal for Version 2 of the map format.
 
 ## File
