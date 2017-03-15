@@ -1,5 +1,5 @@
-# Specification for GlPortal
-These are instructions on how to create GlPortal.
+# About
+This is the specification for GlPortal.
 There is another repository for the [source code](https://github.com/GlPortal/glPortal).
 
 - GlPortals [design guide](./design-guide.md)
