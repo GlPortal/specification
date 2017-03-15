@@ -1,7 +1,7 @@
 # Map Format Specification
 Proposal for Version 2 of the map format.
 
-## File
+## Map
 A map starts with the xml declaration and the map tag. 
 ```xml
 <?xml version="1.0" ?>
