@@ -1,4 +1,0 @@
-* Level Design
-- Give the player a glimpse at the goal as early as possible. Keep the player aware of the position of the goal at all times.
-- Reduce back tracking to a minimum.
-- Put a secret and a hint for the secret in each map.
