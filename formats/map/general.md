@@ -1,7 +1,7 @@
 # Map Format Specification
 Proposal for Version 2 of the map format.
 
-## File
+## Map
 A map starts with the xml declaration and the map tag. 
 ```xml
 <?xml version="1.0" ?>
@@ -12,6 +12,7 @@ A map starts with the xml declaration and the map tag.
 
 ## Authors
 
+Optional tag that contains the map authors.
 ```xml
 <authors>
   <author email="john.k@example.com">John Kent</author>
@@ -75,7 +76,11 @@ In the editor show the mesh as it would look in the game.
 
 
 ## Walls
+### Required attributes
+position, scale
 
+### Optional attributes
+rotation
 ```xml
 <wall material="<material_id>">
   <position x="5.25" y="-3" z="5"/>
@@ -86,13 +91,13 @@ In the editor show the mesh as it would look in the game.
 
 ## Light
 Define a point light.
-### Required attributes:
+### Required attributes
  - Position - float x, float y, float z
  - Color - float r, float g, float b
  - Distance - float distance
  - Energy - float energy
 
-### Optional attributes:
+### Optional attributes
  - specular - int specular
 ```xml
 <light distance="20" energy="5" specular="0"/>
