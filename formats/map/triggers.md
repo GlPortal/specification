@@ -1,5 +1,7 @@
 # Triggers
+Triggers are map elements that cause certain events to occur when an actor enters it.
 
+## Example trigger
 Rotation element is optional in every trigger element
 
 ```xml
