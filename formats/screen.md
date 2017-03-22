@@ -1,4 +1,5 @@
 # Screen format
+Screens are a way to design 2d user interfaces using xml.
 
 ## File
 A screen starts with the xml declaration and the screen tag. 
