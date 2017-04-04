@@ -49,6 +49,7 @@ Decrease player health over time.
 
 ## Audio
 Play a audio track, loop attribute of triger element is optional, by default it is false
+
 * loop attribute (boolean) of element trigger is optional, by default it is false
 * file (mandatory) attribute is the file path relative to the packages data path where /audio is implied
 * music (boolean) for this trigger will use the music volume for this audio file default is false
