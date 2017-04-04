@@ -52,6 +52,7 @@ Play a audio track, loop attribute of triger element is optional, by default it 
 * loop attribute (boolean) of element trigger is optional, by default it is false
 * file (mandatory) attribute is the file path relative to the packages data path where /audio is implied
 * music (boolean) for this trigger will use the music volume for this audio file default is false
+
 ```xml
 <trigger type="audio" loop="true" file="track1">
   <position x="5.25" y="-3" z="5"/>
@@ -63,6 +64,7 @@ Play a audio track, loop attribute of triger element is optional, by default it 
 ## Map
 Load new map
 * file (mandatory) attribute is the file path relative to the packages data path where /maps is implied
+
 ```xml
 <trigger type="map" file="map name">
   <position x="5.25" y="-3" z="5"/>
@@ -82,6 +84,7 @@ Is used to reference position for checkpoints and player teleportation
 
 ## Checkpoint
 * destination (mandatory) destination where the player will spawn when reset to checkpoint
+
 Respawns the player at position specified by destination on death. Rotation subelement of trigger (optional) determines rotation of trigger box, rotation subelement
 ```xml
 <trigger type="checkpoint" destination="destination name">
