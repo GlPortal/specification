@@ -65,7 +65,7 @@ Play a audio track, loop attribute of triger element is optional, by default it 
 ## Map
 Load new map
 
-* file (mandatory) attribute is the file path relative to the packages data path where /maps is implied
+* file (mandatory) attribute is the file path relative to the packages data path where /maps and the .xml ending is implied
 
 ```xml
 <trigger type="map" file="map name">
