@@ -74,6 +74,19 @@ Load new map
   <scale x="0.5" y="4.0" z="4.0"/>
 </trigger>
 ```
+
+## Screen
+Load screen
+
+* file (mandatory) attribute is the file path relative to the packages data path where /screens and the .xml ending is implied
+
+```xml
+<trigger type="screen" file="screen name">
+  <position x="5.25" y="-3" z="5"/>
+  <rotation x="0" y="0" z="0"/>
+  <scale x="0.5" y="4.0" z="4.0"/>
+</trigger>
+```
 ## Destination
 Is used to reference position for checkpoints and player teleportation
 ```xml
