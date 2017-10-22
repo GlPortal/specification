@@ -4,8 +4,8 @@ Below are the keys recognized.
 #
 | Attribute | Key          |
 |-----------|--------------|
-| esc       | Escape       |
-| ret       | Return/Enter |
+| escape    | Escape       |
+| return    | Return/Enter |
 | space     |  Space       |
 | up        | Up           |
 | down      | Down         |
