@@ -2,10 +2,12 @@
 Screens are a way to design 2d user interfaces using xml.
 
 ## File
-A screen starts with the xml declaration and the screen tag. 
+A screen starts with the xml declaration and the screen tag.
+
+The key attribute defines the key used to close the screen. It is optional and defaults to escape.
 ```xml
 <?xml version="1.0" ?>
-<screen>
+<screen key="esc">
 [...]
 </screen>
 ```
