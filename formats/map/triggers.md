@@ -93,7 +93,6 @@ Is used to reference position for checkpoints and player teleportation
 <destination name="destination1">
   <position x="5.25" y="-3" z="5"/>
   <rotation x="0" y="0" z="0"/>
-  <scale x="0.5" y="4.0" z="4.0"/>
 </destination>
 ```
 
