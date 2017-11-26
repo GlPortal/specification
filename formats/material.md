@@ -1,6 +1,6 @@
 # Material Definition Format Specification
 ## File
-A material definition starts with the xml declaration and the map tag. 
+A material definition starts with the xml declaration and the map tag. The file extension is xml.
 ```xml
 <?xml version="1.0" ?>
 <material>
