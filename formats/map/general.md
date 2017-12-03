@@ -53,8 +53,6 @@ Attributes degree int x, int y, int z.
 ## Models
 The map format needs to support to add models.
 
-Proposed tag
-
 ```xml
 <model mesh="foo.obj" material="<material_id>">
   <position x="5.25" y="-3" z="5"/>
