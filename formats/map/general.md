@@ -1,7 +1,7 @@
 # Map Format Specification
 
 ## Map
-A map starts with the xml declaration and the map tag. 
+The file extension for maps is xml. A map starts with the xml declaration and the map tag. 
 ```xml
 <?xml version="1.0" ?>
 <map>
