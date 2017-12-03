@@ -1,5 +1,4 @@
 # Map Format Specification
-Proposal for Version 2 of the map format.
 
 ## Map
 A map starts with the xml declaration and the map tag. 
@@ -51,7 +50,6 @@ Attributes degree int x, int y, int z.
 ```
 
 ## Models
-The map format needs to support to add models.
 
 ```xml
 <model mesh="foo.obj" material="<material_id>">
@@ -60,9 +58,6 @@ The map format needs to support to add models.
   <scale x="0.5" y="4.0" z="4.0"/>
 </model>
 ```
-
-In the editor show the mesh as it would look in the game.
-
 
 ## Walls
 ### Required attributes
