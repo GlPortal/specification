@@ -41,15 +41,6 @@ Attributes degree int x, int y, int z.
 </spawn>
 ```
 
-## End Position
-End position is deprecated and will be replaced by the end_map trigger in the future.
-```xml
-<end>
-    <position x="25" y="0" z="5"/>
-    <rotation x="0" y="90" z="0"/>
-</end>
-```
-
 ## Materials
 
 ```xml
