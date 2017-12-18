@@ -7,3 +7,4 @@ The radix renderer provides the following functionalities:
 - render player
 - render portals
 - render scene
+- render entities
