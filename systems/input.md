@@ -1,10 +1,8 @@
 # Input
 Input bindings are configured through the JSON configuration file named "config.json". 
-
 ## Format
 The format used is as such:
-
-`
+```
 {
   control_type: {
     "bindings": {
@@ -18,18 +16,14 @@ The format used is as such:
     }
   }
 }
-`
-
+```
 An example config JSON:
-
-`
+```
 {
   "mouse": {
     "sensitivity": 3.00,
     "bindings": {
-      "look_analogue": ["mouse_move"],
-      "fire_pimary": ["mouse_button_left"],
-      "fire_secondary": ["mouse_button_right"]
+      "look_analogue": ["mouse_move"]
     }
   },
   "keyboard": {
@@ -38,9 +32,7 @@ An example config JSON:
       "forward": ["W", "Up"],
       "back": ["S", "Down"],
       "left": ["A", "Left"],
-      "right": ["D", "Right"],
-      "quit": ["Q"],
-      "pause": ["Escape"]
+      "right": ["D", "Right"]
     }
   },
   "controller": {
@@ -63,8 +55,7 @@ An example config JSON:
     }
   }
 }
-`
-
+```
 ## Actions 
 | Action Name | Alias |
 | --- | --- |
@@ -80,14 +71,12 @@ An example config JSON:
 | Pause | `pause` |
 | Quit | `quit` |
 | Start | `start` |
-
 ## Binding Aliases
 Keyboard bindings are done using the built in SDL functions. A reference can be found here. The rest have Aliases defined below.
-
 | Mouse Binding Name | Alias |
 | --- | --- |
 | Mouse Movement | `mouse_move` |
-| --- | --- |
+| ~ | ~ |
 | Left mouse button | `mouse_button_left` |
 | Middle mouse button | `mouse_button_middle` |
 | Right mouse button | `mouse_button_right` |
@@ -111,20 +100,18 @@ Keyboard bindings are done using the built in SDL functions. A reference can be 
 | Right stick | `right_stick` |
 | Left shoulder | `left_shoulder` |
 | Right shoulder | `right_shoulder` |
-| Dpad up | `dpad_up` |
-| Dpad down | `dpad_down` |
-| Dpad left | `dpad_left` |
-| Dpad right | `dpad_right` |
-| --- | --- |
+| D-pad up | `dpad_up` |
+| D-pad down | `dpad_down` |
+| D-pad left | `dpad_left` |
+| D-pad right | `dpad_right` |
+| ~ | ~ |
 | Left stick | `stick_left` |
 | Right stick | `stick_right` |
-| --- | --- |
+| ~ | ~ |
 | Left trigger | `trigger_left` |
 | Right trigger | `trigger_right` |
-
 ## Default Bindings
 For some actions, if no binding is provided, then a default will automatically be assigned by the engine. These actions and their corresponding default actions are listed below.
-
 | Action | Binding |
 | --- | --- |
 | Analogue look | Mouse movement |
@@ -138,8 +125,20 @@ For some actions, if no binding is provided, then a default will automatically b
 | Pause | Escape |
 | Quit | Q |
 | Start game | Return |
-
-## Sensitivty
-
-## Dead Zone / Activation Point
-If an analogue inupt (ex. controller stick, mouse movement) is set to an analogue action (ex. movement) then it functions a threshold, i.e. if the value for an input is lower than that the dead zone value it is set to zero, if it greater than the dead zone it is unchanged. If an analogue input is set to a digital action (ex. jump) then the dead zone functions as an activation point, i.e. if the input value is less than the dead zone then the input is 'off', if it greater then the dead zone it is 'on'. The units dead zone/activation point values correspond to 1.0 for a totally activated trigger/stick and 0.0 for one at their lowest value/centre point. For example if you wanted the dead zone for a stick to be at 40% of the maximum value then you would set the dead zone value for that stick to 0.4.
+## Channels
+Input is handled through channels which are essentially a container for a value, updated frequently, this value could be a vector, a float or a boolean. When the channel changes it notifies its listeners. The channel base class has parameters which is uses to filter input so listeners are not notified unnecessarily. These filters include:
+- dead zone / activation point
+- also sensitivity
+- auto-zero
+- always notify listener
+- bound
+#### Dead Zone / Activation Point
+If an analogue input (ex. analogue stick, mouse movement) is set to an analogue action (ex. movement) then it functions a threshold, i.e. if the value for an input is lower than that the dead zone value it is set to zero, if it greater than the dead zone it is unchanged. If an analogue input is set to a digital action (ex. jump) then the dead zone functions as an activation point, i.e. if the input value is less than the dead zone then the input is 'off', if it greater then the dead zone it is 'on'. The units dead zone/activation point values correspond to 1.0 for a totally activated trigger/stick and 0.0 for one at their lowest value/centre point. For example if the dead zone for a controller stick is to be at 40% of the maximum value then you would set the dead zone value for that stick to 0.4.
+#### Sensitivity
+New values are multiplied by the sensitivity value. Sensitivity does not affect digital channels.
+#### Auto-zero
+After the new value is set it is set back to whatever the default value for the value type is, ex. 0.0 for floats, false for booleans etc.
+#### Always notify listener
+Listeners are notified whenever a new value is set, regardless of whether the value changes or not.
+#### Bound
+All values greater than a threshold are set to a certain value.
