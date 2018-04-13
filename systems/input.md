@@ -73,6 +73,7 @@ An example config JSON:
 | Start | `start` |
 ## Binding Aliases
 Keyboard bindings are done using the built in SDL functions. A reference can be found here. The rest have Aliases defined below.
+
 | Mouse Binding Name | Alias |
 | --- | --- |
 | Mouse Movement | `mouse_move` |
@@ -110,8 +111,10 @@ Keyboard bindings are done using the built in SDL functions. A reference can be 
 | ~ | ~ |
 | Left trigger | `trigger_left` |
 | Right trigger | `trigger_right` |
+
 ## Default Bindings
 For some actions, if no binding is provided, then a default will automatically be assigned by the engine. These actions and their corresponding default actions are listed below.
+
 | Action | Binding |
 | --- | --- |
 | Analogue look | Mouse movement |
@@ -125,6 +128,7 @@ For some actions, if no binding is provided, then a default will automatically b
 | Pause | Escape |
 | Quit | Q |
 | Start game | Return |
+
 ## Channels
 Input is handled through channels which are essentially a container for a value, updated frequently, this value could be a vector, a float or a boolean. When the channel changes it notifies its listeners. The channel base class has parameters which is uses to filter input so listeners are not notified unnecessarily. These filters include:
 - dead zone / activation point
