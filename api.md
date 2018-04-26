@@ -1,8 +1,8 @@
 # API
 ## Player
-### kill
-### move
+### playerMoveY(x)
+Move the player along the y axis by x.
 ## Game
-### Quit
-### Pause
 ### isKeyPressed
+### logDebug(category, message);
+Write a debug message to the log.
