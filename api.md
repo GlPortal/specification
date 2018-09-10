@@ -6,3 +6,5 @@ Move the player along the y axis by x.
 ### isKeyPressed
 ### logDebug(category, message);
 Write a debug message to the log.
+### addScreen(screenName, path)
+### removeScreen(screenName)
