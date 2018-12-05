@@ -5,5 +5,5 @@ The startup script is located in *app/init.rs*. An alternative startup script ca
 Example Listing
 ```
 loadScreen("screens/title");
-loadMap("maps/n1")
+loadMap("maps/n1");
 ```
