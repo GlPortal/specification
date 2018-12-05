@@ -1,4 +1,5 @@
 # API
+The Radix API allows developers to create their games and modifications in either RadixScript or C++.
 ## Player
 ### playerMoveY(x)
 Move the player along the y axis by x.
